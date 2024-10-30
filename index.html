@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Counter Program | HELZYON</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="container">
+                <h1 class="number" id="number">0</h1>
+                <button class="counterUp btn" id="counterUp">
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+
+                <button class="counterDown btn" id="counterDown">
+                    <i class="fa-solid fa-minus"></i>
+                </button>
+                
+                <button class="resetBtn btn" id="resetBtn">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+            </div>
+
+            <div class="custom-counter">
+                <div class="ntahlah">
+                    <input type="number" id="input-multiplier">
+
+                    <button type="button" id="push-input">
+                        multiply!
+                        <!-- <i class="fa-solid fa-check"></i> -->
+                    </button>
+                </div>
+
+                <button id="resetMCP">Reset</button>
+            </div>
+
+            <div class="multiplier-list">
+                <button id="2x">2X</button>
+                <button id="5x">5X</button>
+                <button id="10x">10X</button>
+            </div>
+
+            <div class="status">
+                <p>Multiplier status:</p>
+                <p id="mstatus">0</p>
+            </div>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+
+</html>
